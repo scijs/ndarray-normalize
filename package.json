@@ -1,0 +1,40 @@
+{
+  "name": "ndarray-normalize",
+  "version": "0.0.0",
+  "description": "Normalizes an ndarray to zero mean and unit variance",
+  "main": "normalize.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "cwise": "~0.1.2",
+    "ndarray-moments": "~0.0.1"
+  },
+  "devDependencies": {
+    "lena": "~0.0.0",
+    "ndarray": "~0.2.2",
+    "luminance": "~0.0.0",
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-normalize.git"
+  },
+  "keywords": [
+    "normalize",
+    "ndarray",
+    "unit",
+    "mean",
+    "variance",
+    "image",
+    "volume"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "7840a186a3ae1e983ed1879ec9627940b71a63b8"
+}
