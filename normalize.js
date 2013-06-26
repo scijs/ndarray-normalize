@@ -5,7 +5,7 @@ var cwise = require("cwise")
 
 var do_normalize = cwise({
   args: ["array", "array", "scalar", "scalar"],
-  body: function(out, a, mu, sigma) {
+  body: function normalizeBody(out, a, mu, sigma) {
     out = (a - mu) / sigma
   }
 })
