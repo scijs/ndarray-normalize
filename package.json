@@ -1,15 +1,18 @@
 {
   "name": "ndarray-normalize",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Normalizes an ndarray to zero mean and unit variance",
   "main": "normalize.js",
   "directories": {
     "example": "example",
     "test": "test"
   },
+  "browserify": {
+    "transform": "cwise"
+  },
   "dependencies": {
-    "cwise": "~0.3.2",
-    "ndarray-moments": "~0.1.0"
+    "cwise": "^1.0.5",
+    "ndarray-moments": "^1.0.0"
   },
   "devDependencies": {
     "lena": "~1.0.0",
